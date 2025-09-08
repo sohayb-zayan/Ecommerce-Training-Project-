@@ -79,17 +79,7 @@ The main focus is on implementing **Admin Panel**, **Authentication & Authorizat
 <img width="1788" height="877" alt="image" src="https://github.com/user-attachments/assets/917316d8-f328-4414-a95e-65c553c18b79" />
 <img width="1851" height="863" alt="image" src="https://github.com/user-attachments/assets/b4034800-3fb7-404f-9cf2-b72f00bc58fa" />
 
-### 🔑 Authentication & Authorization  
-![Login Page](./screenshots/login.png)  
-![Access Denied](./screenshots/access-denied.png)  
 
-### 🛠️ Admin Panel – Categories  
-![Category List](./screenshots/category-list.png)  
-![Category Create](./screenshots/category-create.png)  
-
-### 📦 Admin Panel – Products  
-![Product List](./screenshots/product-list.png)  
-![Product Create](./screenshots/product-create.png)  
 
 ---
 
