@@ -72,13 +72,15 @@ The main focus is on implementing **Admin Panel**, **Authentication & Authorizat
 ---
 
 ## 📸 Screenshots  
-<img width="1868" height="742" alt="image" src="https://github.com/user-attachments/assets/1d67899e-391c-45c6-994e-687ad6012d52" />
-<img width="1895" height="895" alt="image" src="https://github.com/user-attachments/assets/9cf02f4f-ea7e-4081-8bc6-32fe7e8ef06b" />
-<img width="1745" height="861" alt="image" src="https://github.com/user-attachments/assets/ab1eec56-abd5-4296-b8ba-c7a8fddec817" />
-<img width="1895" height="895" alt="image" src="https://github.com/user-attachments/assets/cee344b6-f9e8-44ee-bdc4-2009a2040fc0" />
-<img width="1788" height="877" alt="image" src="https://github.com/user-attachments/assets/917316d8-f328-4414-a95e-65c553c18b79" />
-<img width="1851" height="863" alt="image" src="https://github.com/user-attachments/assets/b4034800-3fb7-404f-9cf2-b72f00bc58fa" />
+<img width="1880" height="745" alt="image" src="https://github.com/user-attachments/assets/bf645cb4-bac8-4792-b98c-bd550bb0f383" />
+<img width="1862" height="867" alt="image" src="https://github.com/user-attachments/assets/9dc60aaa-1807-415f-8fa1-87fc5ca34de3" />
+<img width="1620" height="757" alt="image" src="https://github.com/user-attachments/assets/d46a1d77-baff-408f-855c-34e1e7b954bd" />
+<img width="1067" height="656" alt="image" src="https://github.com/user-attachments/assets/3644928f-73f2-456e-bffb-acf73c7bfcc8" />
 
+<img width="1340" height="705" alt="image" src="https://github.com/user-attachments/assets/cf592d17-df36-47ce-9015-b862e2f02a0b" />
+<img width="833" height="836" alt="image" src="https://github.com/user-attachments/assets/76935e13-f99d-40c6-867a-03fa398c7999" />
+
+![Uploading image.png…]()
 
 
 ---
