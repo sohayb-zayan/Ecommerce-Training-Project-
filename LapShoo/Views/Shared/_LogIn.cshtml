@@ -1,0 +1,46 @@
+﻿﻿@using Microsoft.AspNetCore.Identity;
+@using MyShop.Entities.Model
+@inject SignInManager<Useres> signInManager;
+
+
+<div class="col-lg-8 col-md-7 product-filter-options">
+
+
+        <ul class="account-user-info ms-auto">
+
+        @if (signInManager.IsSignedIn(User))
+        {
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Wishlist</a></li>
+           
+                <li>
+                <a>Well come @User.Identity.Name</a>
+                </li>
+                <li>
+                <form asp-area="Ideintity" asp-controller="AccountManeger" asp-action="Logout" method="post" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-link nav-link text-dark p-0">Logout</button>
+                 </form>
+                </li>
+            
+
+        }
+
+        else
+        {
+            <ul class="account-user-link d-none d-lg-block">
+            <li class="">
+                <a class="nav-link text-dark" asp-area="Ideintity" asp-controller="AccountManeger" asp-action="Login">
+                    Login
+                </a>
+            </li>
+            <li class="">
+                <a class="nav-link text-dark" asp-area="Ideintity" asp-controller="AccountManeger" asp-action="Rig">
+                    Register
+                </a>
+            </li>
+            </ul>
+        }
+
+        </ul>
+</div>

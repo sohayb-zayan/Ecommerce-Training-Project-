@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Purple Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/MyLayOut/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/MyLayOut/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="~/MyLayOut/assets/vendors/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/MyLayOut/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="~/MyLayOut/assets/css/demo_1/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="~/MyLayOut/assets/images/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main-panel" style="width: 100%;">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="product-nav-wrapper row">
+                            <div class="col-lg-4 col-md-5">
+                                <ul class="nav product-filter-nav">
+                                    <li class="active"><a href="#">BEST SELLERS</a></li>
+                                    <li><a href="#">FEATURED</a></li>
+                                    <li><a href="#">SALES</a></li>
+                                </ul>
+                            </div>
+
+                                <partial name="_Login" />
+
+                        </div>
+                        <div class="row product-item-wrapper">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content-wrapper ends -->
+    <!-- partial:../../partials/_footer.html -->
+    <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021 <a href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
+        </div>
+    </footer>
+    <!-- partial -->
+</div>
+<script src="~/MyLayOut/assets/vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page -->
+<script src="~/MyLayOut/assets/vendors/chart.js/Chart.min.js"></script>
+<script src="~/MyLayOut/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+<!-- End plugin js for this page -->
+<!-- inject:js -->
+<script src="~/MyLayOut/assets/js/off-canvas.js"></script>
+<script src="~/MyLayOut/assets/js/hoverable-collapse.js"></script>
+<script src="~/MyLayOut/assets/js/misc.js"></script>
+<script src="~/MyLayOut/assets/js/settings.js"></script>
+<script src="~/MyLayOut/assets/js/todolist.js"></script>
+<script src="~/MyLayOut/assets/js/jquery.cookie.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page -->
+<script src="~/MyLayOut/assets/js/dashboard.js"></script>
+<!-- End custom js for this page -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
+  </body>
+</html>

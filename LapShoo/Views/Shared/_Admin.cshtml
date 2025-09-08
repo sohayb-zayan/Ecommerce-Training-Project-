@@ -1,0 +1,43 @@
+﻿
+
+<ul class="navbar-nav navbar-nav-right">
+    <li class="nav-item nav-profile dropdown">
+        <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="nav-profile-img">
+                <img src="~/MyLayOut/assets/images/faces/face1.jpg" alt="image">
+            </div>
+            <div class="nav-profile-text">
+                <p class="mb-1 text-black"> Well come @User.Identity.Name</p>
+            </div>
+        </a>
+    </li>
+
+    <li class="nav-item d-none d-lg-block full-screen-link">
+        <a class="nav-link">
+            <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+        </a>
+    </li>
+
+    <li class="nav-item dropdown">
+
+        <a class="btn">Add new Emp</a>
+        
+    </li>
+
+
+    <li class="nav-item dropdown">
+        <a class="btn" asp-area="Customer" asp-controller="Home" asp-action="Index">Go to Market</a>
+    </li>
+
+    <li class="nav-item nav-logout d-none d-lg-block">
+
+        <form asp-area="Ideintity" asp-controller="AccountManeger" asp-action="Logout" method="post" class="d-inline">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="nav-link btn btn-link p-0" style="background:none; border:none;">
+                <i class="mdi mdi-power"></i>
+            </button>
+        </form>
+    </li>
+   
+
+</ul>

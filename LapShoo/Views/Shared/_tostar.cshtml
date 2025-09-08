@@ -1,0 +1,24 @@
+﻿
+    ﻿@if (TempData["Create"] != null)
+    {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+        <script>
+            toastr.success("@TempData["Create"]")
+        </script>
+    }
+
+        ﻿@if (TempData["Edit"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script>
+        toastr.success("@TempData["Edit"]")
+    </script>
+}
+
+
+    
+

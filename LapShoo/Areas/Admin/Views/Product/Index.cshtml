@@ -1,0 +1,45 @@
+﻿
+
+@{
+    Layout = "_MyLayOut";
+}
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0/dist/css/select2.min.css" rel="stylesheet" />
+<link href="//cdn.datatables.net/2.3.3/css/dataTables.dataTables.min.css" rel="stylesheet" />
+
+<div>
+    <a asp-area="Admin" asp-controller="Product" asp-action="Creat" class="btn btn-primary">Create</a>
+</div>
+
+
+
+<div class="mb-3">
+    <label for="categoryFilter" class="form-label fw-bold">
+        Choose category
+    </label>
+    <select id="categoryFilter" class="form-select shadow-sm rounded" onchange="ReLoad()">
+    </select>
+</div>
+
+
+
+<table class="table table-hover" id="mytable" width="100%">
+    <thead class="text-bold">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Show</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+</table>
+@await Html.PartialAsync("_Show");
+@await Html.PartialAsync("_tostar");
+
+@section Scripts {
+    <
+    <script src="//cdn.datatables.net/2.3.3/js/dataTables.min.js"></script>
+    <script src="~/js/Product.js"></script>
+
+}
